@@ -32,3 +32,37 @@ replacing most of Strings7 with a compact accepted loop;
 aggressive pattern reuse and very few physically stored patterns.
 
 That remains a bonus objective, not something worth damaging the tune to achieve. The bootstrap explicitly prioritizes musical flow and compatibility over exact size or runtime.
+
+---
+
+Blower is out. Your audition overrides my earlier spectral guess, as it should: the bootstrap explicitly gives auditioned material authority over by-ear decisions. Apparently a Fourier transform still cannot grow ears.
+
+## Revised slot 2
+
+| Setting        | Value                                                                     |
+| -------------- | ------------------------------------------------------------------------- |
+| Sample         | `ST-02/Bratz`                                                             |
+| Role           | Provisional brass lead, written with sax-like phrasing                    |
+| Default volume | `24`                                                                      |
+| Finetune       | `00`                                                                      |
+| Loop           | No                                                                        |
+| Note range     | `C-3..B-4`                                                                |
+| Size           | `1964` hex / 6,500 bytes                                                  |
+| Duration       | About 0.784 seconds                                                       |
+| Peak           | 0.00 dBFS                                                                 |
+| RMS            | −11.38 dBFS                                                               |
+| Envelope       | Main peak around 64 ms; below 20% around 522 ms; natural decay to the end |
+
+Volume 24 places it somewhat forward of Strings7 at 20 without making every entrance resemble a municipal warning system. Accented notes can rise toward 28 or 2c using per-row volume changes.
+
+Replacing Blower saves 2,600 bytes. The untrimmed primary sample payload is now 89e4 bytes, or 35,300 decimal bytes.
+
+For a painless later sax replacement, the Bratz part should be written this way:
+
+Monophonic, with short breath-shaped phrases and deliberate rests.
+Mostly octave 3 through lower octave 4; reserve the top of the stated range for occasional peaks.
+Retrigger longer notes rather than relying on artificial sustain.
+Use brief pickups, restrained portamento and modest vibrato.
+Avoid chords, organ-like held notes and repeated machine-gun attacks, all of which would expose the temporary brass identity rather enthusiastically.
+
+The revised files still target MilkyTracker and a four-channel ProTracker MOD.
