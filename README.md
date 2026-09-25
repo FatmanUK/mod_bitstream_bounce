@@ -4,7 +4,9 @@ The direct follow-on from Signal Lost. I've dialled the LLM's intelligence down 
 ## A Gemini mod in Flash-Lite mode! Can it do it?
 This is the first abject failure. Flash-Lite is so unbelievably stupid, it doesn't even understand the concept of storing data in order to analyse it. It's possible Gemini was suffering an outage at the time.
 
-I'm thinking about the next (or *first*) step. Gemini is so pathetically bad at this, I might just switch to Claude to get this one done.
+I'm thinking about the next (or *first*) step. Gemini is so pathetically bad at this, I might just switch to ChatGPT to get this one done.
+
+I'm so disappointed, I'm kicking it up to Pro. I need this to be really good.
 
 ## result
 

@@ -1,0 +1,9 @@
+ignore/
+*.lha
+*.wav
+*.iff
+*.raw
+*.mod
+*.xm
+*.bash
+*.tar.gz

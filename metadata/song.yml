@@ -1,0 +1,71 @@
+---
+title: 'Bitstream Bounce'
+message: ' A bouncy wild jazzy        party tune       by Adam J Richardson  Written with ChatGPT        Pro mode         With interruptions     and interference    by Millie  >^._.^<~~ '
+# A bouncy wild jazzy  #
+#      party tune      #
+# by Adam J Richardson #
+# Written with ChatGPT #
+#       Pro mode       #
+#  With interruptions  #
+#   and interference   #
+# by Millie  >^._.^<~~ #
+speed: 6
+bpm: 138
+orderList:
+  - 0
+#  - 1
+#  - 2
+#  - 3
+#  - 4
+#  - 5
+#  - 6
+instruments:
+  - id: 1
+    source: 'st01'
+    name: 'ST-01/Strings7'  # melodic
+    volume: 0x20
+    finetune: 0x2  # +2 to +4
+    start: 0x00f0
+    length: 0x25bc
+  - id: 2
+    source: 'st02'
+    name: 'ST-02/Bratz'  # no, not a sax.  # melodic
+    volume: 0x28
+    finetune: 0x0
+    # alt brasses:
+    # ST-01/SynBrass
+    # ST-02/Bratz
+    # ST-02/Licks2
+    # ST-02/SqBrass
+  - id: 3
+    source: 'st01'
+    name: 'ST-01/SlapBass'  # melodic
+    volume: 0x1c
+    finetune: 0x0
+  - id: 4
+    source: 'st02'
+    name: 'ST-02/BassDrum5'
+    volume: 0x30
+    finetune: 0x0
+  - id: 5
+    source: 'st01'
+    name: 'ST-01/Snare4'
+    volume: 0x20
+    finetune: 0x0
+  - id: 6
+    source: 'st01'
+    name: 'ST-01/HiHat2'
+    volume: 0x18
+    finetune: 0x0
+  - id: 7
+    source: 'st01'
+    name: 'ST-01/MuteClav'  # melodic
+    volume: 0x1c
+    finetune: 0x0
+  - id: 8
+    source: 'st01'
+    name: 'ST-01/CowBell'
+    volume: 0x14
+    finetune: 0x0
+...
+# vim: set filetype=yaml
