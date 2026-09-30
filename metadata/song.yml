@@ -28,15 +28,13 @@ instruments:
     start: 0x00f0
     length: 0x25bc
   - id: 2
+    # replace with samples/AltoSaxC4.iff, rel. note A-5 (+21) 0x3304(0x1d3b)
     source: 'st02'
     name: 'ST-02/Bratz'  # no, not a sax.  # melodic
     volume: 0x28
+    start: 0xa6d  # temp
+    length: 0x616  # temp
     finetune: 0x0
-    # alt brasses:
-    # ST-01/SynBrass
-    # ST-02/Bratz
-    # ST-02/Licks2
-    # ST-02/SqBrass
   - id: 3
     source: 'st01'
     name: 'ST-01/SlapBass'  # melodic
