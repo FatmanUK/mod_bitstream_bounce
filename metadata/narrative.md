@@ -23,25 +23,27 @@ D Dorian supplies minor-key character without becoming gloomy. The natural B giv
 
 ## Structural arc
 
+The narrative is: **a data stream learns to dance**. A carrier signal appears, synchronises into rhythm, becomes a party routine, suffers a buffer underrun, reboots, overclocks, and signs off with a checksum flourish.
+
 | Phase                  | Order positions | Patterns             | Narrative and musical function                                                                                                                                                                              |
 | ---------------------- | --------------: | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Carrier acquired**   |            `00` | `00`                 | Strings7 drone appears in isolation. Bratz enters as a provisional sax-shaped voice, cautiously probing the signal. Both are cut before the beat begins.                                                    |
-| **Handshake**          |            `01` | `01`                 | Main drums arrive abruptly. The first part is deliberately drum-only; bass and clav enter in stages, as though separate channels are locking to the clock.                                                  |
-| **Packets in motion**  |         `02–04` | `02, 03, 02`         | The principal groove is established, answered by a busier variation, then restated. This is the first complete dance section.                                                                               |
-| **Side-channel party** |         `05–09` | `04, 03, 05, 02, 05` | The texture briefly opens, Strings7 returns in a supporting role, and the lead develops into the main hook. Pattern `05` becomes the recognisable party refrain.                                            |
-| **Buffer underrun**    |         `0a–0b` | `06, 01`             | Notes fragment, expected hits disappear, and the whole system appears to lose synchronisation. Pattern `01` then returns unchanged as a literal reboot.                                                     |
-| **Recompiled groove**  |         `0c–0f` | `02, 03, 05, 04`     | Familiar patterns return in a new dramatic context. The listener now hears them as restored material rather than simple repetition. Pattern `04` creates breathing room before the final escalation.        |
-| **Overclocked finale** |         `10–14` | `07, 05, 07, 03, 02` | The densest version of the tune. The lead reaches its highest register, fills become more frequent, and the main motifs collide in controlled fashion. The final `02` acts as a deceptive return to normal. |
-| **Checksum coda**      |            `15` | `08`                 | A unique closing flourish dismantles the groove, exchanges short figures between lead and bass, and ends on a deliberate final strike rather than a fade or loop.                                           |
+| **Carrier acquired**   |         `00-01` | `00, 01`             | Strings7 drone appears in isolation. Bratz enters as a provisional sax-shaped voice, cautiously probing the signal. Both are cut before the beat begins.                                                    |
+| **Handshake**          |            `02` | `02`                 | Main drums arrive abruptly. The first part is deliberately drum-only; bass and clav enter in stages, as though separate channels are locking to the clock.                                                  |
+| **Packets in motion**  |         `03–05` | `03, 04, 03`         | The principal groove is established, answered by a busier variation, then restated. This is the first complete dance section.                                                                               |
+| **Side-channel party** |         `06–0a` | `05, 04, 06, 03, 06` | The texture briefly opens, Strings7 returns in a supporting role, and the lead develops into the main hook. Pattern `05` becomes the recognisable party refrain.                                            |
+| **Buffer underrun**    |         `0b–0c` | `07, 02`             | Notes fragment, expected hits disappear, and the whole system appears to lose synchronisation. Pattern `01` then returns unchanged as a literal reboot.                                                     |
+| **Recompiled groove**  |         `0d–10` | `03, 04, 06, 05`     | Familiar patterns return in a new dramatic context. The listener now hears them as restored material rather than simple repetition. Pattern `04` creates breathing room before the final escalation.        |
+| **Overclocked finale** |         `11–15` | `08, 06, 08, 04, 03` | The densest version of the tune. The lead reaches its highest register, fills become more frequent, and the main motifs collide in controlled fashion. The final `02` acts as a deceptive return to normal. |
+| **Checksum coda**      |            `16` | `09`                 | A unique closing flourish dismantles the groove, exchanges short figures between lead and bass, and ends on a deliberate final strike rather than a fade or loop.                                           |
 
 The complete proposed order list is:
 
 ```text
-00, 01, 02, 03, 02, 04, 03, 05, 02, 05, 06,
-01, 02, 03, 05, 04, 07, 05, 07, 03, 02, 08
+00, 01, 02, 03, 04, 03, 05, 04, 06, 03, 06, 07,
+02, 03, 04, 06, 05, 08, 06, 08, 04, 03, 09
 ```
 
-There are only `09` physically stored patterns. Pattern reuse does most of the structural work:
+There are only `10` physically stored patterns. Pattern reuse does most of the structural work:
 
 * `02` appears five times as the musical “home”.
 * `03` appears four times as its more animated answer.
@@ -53,7 +55,7 @@ There are only `09` physically stored patterns. Pattern reuse does most of the s
 
 ## Pattern roles
 
-### Pattern `00`: Carrier Signal
+### Pattern `00-01`: Carrier Signal
 
 **Primary material:** Strings7, Bratz
 **Motifs:** Carrier Lock, Copper Query, Null Packet
@@ -62,7 +64,7 @@ Strings7 holds a low D-centred drone. Bratz enters with a restrained, monophonic
 
 The final quarter cuts both drone and lead. A brief silence or isolated count-in gesture prepares the drum entrance. The cut must be unambiguous, because the bootstrap explicitly asks for the opening pair to disappear before the main beat. Humanity occasionally writes a useful specification. 
 
-### Pattern `01`: Hard Synchronisation
+### Pattern `02`: Hard Synchronisation
 
 **Primary material:** drums, then bass and clav
 **Motifs:** Clock Lock, Packet Bounce, Split Nibble
@@ -71,7 +73,7 @@ The first eight rows are drums alone. Bass enters next; MuteClav joins after the
 
 Because this exact pattern follows the buffer-failure pattern later, its staged entrances also sound like system components coming back online. No altered duplicate is needed.
 
-### Pattern `02`: Main Bounce
+### Pattern `03`: Main Bounce
 
 **Primary material:** full rhythm section with sparse lead punctuation
 **Motifs:** Packet Bounce, Clock Lock, Split Nibble, Bell Marker
@@ -85,7 +87,7 @@ This is the core dance pattern and therefore must survive repeated hearings. Its
 
 Bratz should not play continuously. Its absence leaves room for the bass and clav groove to become memorable.
 
-### Pattern `03`: Offset Reply
+### Pattern `04`: Offset Reply
 
 **Primary material:** varied bass, more active lead response
 **Motifs:** Packet Bounce variation, Copper Query, Clock Lock
@@ -94,7 +96,7 @@ The harmony remains recognisable, but the bass accents shift and the lead answer
 
 This is not a completely new section. It is the same data interpreted with different timing, which sounds suitably technical while sparing another kilobyte.
 
-### Pattern `04`: Sideband Break
+### Pattern `05`: Sideband Break
 
 **Primary material:** reduced drums, Strings7, clav, isolated bell
 **Motifs:** Carrier Lock variation, Split Nibble, Bell Marker
@@ -103,7 +105,7 @@ The kick thins out, hats become less continuous, and Strings7 returns without re
 
 Its first appearance acts as a breakdown. Its second appearance, much later, becomes the inhale before the final escalation.
 
-### Pattern `05`: Party Hook
+### Pattern `06`: Party Hook
 
 **Primary material:** full drums, bass, principal Bratz phrase
 **Motifs:** Packet Bounce, Clock Lock, Copper Query, Bell Marker
@@ -118,7 +120,7 @@ This is the tune’s central refrain. Bratz states the longest and most recognis
 
 The hook should end with enough space for the bass to answer, rather than filling every row like an anxious ringtone.
 
-### Pattern `06`: Buffer Underrun
+### Pattern `07`: Buffer Underrun
 
 **Primary material:** fragments and silence
 **Motifs:** Dropped Packet, corrupted Copper Query, broken Clock Lock
@@ -134,7 +136,7 @@ This is the sole deliberate instability section. Elements fail in sequence:
 
 The disruption should remain rhythmically legible. It is a buffer failure, not somebody dropping the MOD file down a staircase.
 
-### Pattern `07`: Overclock
+### Pattern `08`: Overclock
 
 **Primary material:** fullest four-channel arrangement
 **Motifs:** Overclock Ladder, Packet Bounce, Clock Lock, Copper Query
@@ -148,7 +150,7 @@ The lead reaches upward more often, bass fills become denser, and CowBell accent
 
 The second occurrence can remain byte-for-byte identical. Its greater intensity will come from placement between `05` and the final run of familiar material.
 
-### Pattern `08`: Checksum Coda
+### Pattern `09`: Checksum Coda
 
 **Primary material:** lead, bass, drums, final Strings7 trace
 **Motifs:** Checksum Flourish, Null Packet, Carrier Lock fragment
