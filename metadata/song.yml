@@ -79,7 +79,7 @@ instruments:
   - id: 8
     source: 'st01'
     name: 'ST-01/CowBell'
-    volume: 0x14
+    volume: 0x20
     finetune: 0x0
 ...
 # vim: set filetype=yaml
