@@ -78,8 +78,9 @@ instruments:
     finetune: 0x0
   - id: 8
     source: 'st01'
-    name: 'ST-01/CowBell'
-    volume: 0x20
+    name: 'ST-01/Stabs'
+    volume: 0x1c
     finetune: 0x0
+    #range: "C-4..B-4"
 ...
 # vim: set filetype=yaml

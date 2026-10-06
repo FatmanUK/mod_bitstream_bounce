@@ -2,16 +2,16 @@
 
 Volumes are hexadecimal; 40 is maximum. Finetune is 00 throughout.
 
-| Slot | Sample            | Function                    | Volume | Loop    | Tracker range | Measured behaviour                                                                   |
-| ---- | ----------------- | --------------------------- | -----: | ------- | ------------- | ------------------------------------------------------------------------------------ |
-| 01   | `ST-01/Strings7`  | Opening drone and later pad |   `20` | **Yes** | `C-4..B-5`    | Peak −3.45 dBFS; sustained, modulating envelope with its largest swell near 0.97 s   |
-| 02   | `ST-02/Blower`    | Primary sax candidate       |   `28` | No      | `C-3..B-4`    | Peak −1.72 dBFS; 85 ms rise, articulated decay, secondary late swell                 |
-| 03   | `ST-01/SlapBass`  | Main bass                   |   `1c` | No      | `C-4..B-5`    | Peak −0.07 dBFS; strong slap transient, approximately 425 ms decay                   |
-| 04   | `ST-02/BassDrum5` | Kick                        |   `20` | No      | `C-4`         | Full-scale peak; rounded low-frequency body, approximately 151 ms decay              |
-| 05   | `ST-01/Snare4`    | Snare                       |   `20` | No      | `C-4`         | Full-scale peak; immediate attack, broad noisy spectrum, approximately 81 ms decay   |
-| 06   | `ST-01/HiHat2`    | Closed hi-hat               |   `18` | No      | `C-4`         | Peak −0.07 dBFS; very bright, approximately 116 ms decay, clean zero-valued endpoint |
-| 07   | `ST-01/MuteClav`  | Syncopated comping          |   `1c` | No      | `C-4..B-5`    | Peak −0.07 dBFS; immediate pluck, approximately 243 ms decay                         |
-| 08   | `ST-01/CowBell`   | Party accents and fills     |   `14` | No      | `C-4`         | Full-scale peak; short pitched-metal strike, approximately 70 ms decay               |
+| Slot | Sample            | Function                      | Volume | Loop    | Tracker range | Measured behaviour                                                                   |
+| ---- | ----------------- | ----------------------------- | -----: | ------- | ------------- | ------------------------------------------------------------------------------------ |
+| 01   | `ST-01/Strings7`  | Opening drone and later pad   |   `20` | **Yes** | `C-4..B-5`    | Peak −3.45 dBFS; sustained, modulating envelope with its largest swell near 0.97 s   |
+| 02   | `ST-02/Blower`    | Primary sax candidate         |   `28` | No      | `C-3..B-4`    | Peak −1.72 dBFS; 85 ms rise, articulated decay, secondary late swell                 |
+| 03   | `ST-01/SlapBass`  | Main bass                     |   `1c` | No      | `C-4..B-5`    | Peak −0.07 dBFS; strong slap transient, approximately 425 ms decay                   |
+| 04   | `ST-02/BassDrum5` | Kick                          |   `20` | No      | `C-4`         | Full-scale peak; rounded low-frequency body, approximately 151 ms decay              |
+| 05   | `ST-01/Snare4`    | Snare                         |   `20` | No      | `C-4`         | Full-scale peak; immediate attack, broad noisy spectrum, approximately 81 ms decay   |
+| 06   | `ST-01/HiHat2`    | Closed hi-hat                 |   `18` | No      | `C-4`         | Peak −0.07 dBFS; very bright, approximately 116 ms decay, clean zero-valued endpoint |
+| 07   | `ST-01/MuteClav`  | Syncopated comping            |   `1c` | No      | `C-4..B-5`    | Peak −0.07 dBFS; immediate pluck, approximately 243 ms decay                         |
+| 08   | `ST-01/Stabs`     | Rare pitched brass/orchestral |   `1c` | No      | `C-4..B-4`    | Peak: 0.00 dBFS; low-mid body and decay, pitched harmonic punctuation                |
 
 ### Sax caveat
 
