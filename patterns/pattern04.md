@@ -2,8 +2,8 @@
 
 The bass accents shift away from the regular grid while the sax answers in two clearly separated phrases. Connected notes use the established `305` plus `300` continuation method; `C00` creates an actual breath between phrases and another before the closing drum fill.
 
-| Row | Ch1 | Ch2 | Ch3 | Ch4 |
-|---:|---|---|---|---|
+|Row | Ch1        | Ch2        | Ch3        | Ch4        |
+|---:|------------|------------|------------|------------|
 | 00 | C-4 04 --- | D-4 03 --- | --- -- --- | --- -- --- |
 | 02 | --- -- --- | --- -- --- | C-4 06 C14 | --- -- --- |
 | 03 | C-4 04 --- | --- -- --- | --- -- --- | --- -- EC4 |

@@ -2,8 +2,8 @@
 
 This is the accepted former Pattern `01`. Its row data is unchanged. Only its stored pattern number and transition destination have moved. It reasserts the clock on row `0`; rows `0-7` contain drums only, `SlapBass` enters on row `8`, and `MuteClav` enters on row `25`. The final fill now crosses into Pattern `03`.
 
-| Row | Ch1 | Ch2 | Ch3 | Ch4 |
-|---:|---|---|---|---|
+|Row | Ch1        | Ch2        | Ch3        | Ch4        |
+|---:|------------|------------|------------|------------|
 | 00 | C-4 04 --- | --- -- --- | --- -- --- | --- -- A01 |
 | 02 | --- -- --- | --- -- --- | C-4 06 C14 | --- -- --- |
 | 03 | C-4 04 --- | --- -- --- | --- -- --- | --- -- --- |

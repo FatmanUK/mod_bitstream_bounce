@@ -2,8 +2,8 @@
 
 The lead answers at the same relaxed pace, then approaches D through the established `C#4` leading tone and restrained portamento. The drone fades over the final twelve rows. Both active channels reach `C00` on row `60`, leaving rows `60-63` as exactly one silent beat before the kick at Pattern `02`, row `0`.
 
-| Row | Ch1 | Ch2 | Ch3 | Ch4 |
-|---:|---|---|---|---|
+|Row | Ch1        | Ch2        | Ch3        | Ch4        |
+|---:|------------|------------|------------|------------|
 | 00 | --- -- C20 | --- -- --- | --- -- --- | --- -- --- |
 | 07 | --- -- --- | --- -- --- | --- -- --- | --- -- EC4 |
 | 08 | --- -- --- | --- -- --- | --- -- --- | A-3 02 C1C |

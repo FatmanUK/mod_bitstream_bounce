@@ -79,8 +79,9 @@ instruments:
   - id: 8
     source: 'st02'
     name: 'ST-02/Tubes'
-    volume: 0x1c
+    volume: 0x20
     finetune: 0x0
-    #range: "C-4..B-4"
+    #recommended_range: "C-3..B-4"
+    #preferred_stab_register: "C-3..B-3"
 ...
 # vim: set filetype=yaml

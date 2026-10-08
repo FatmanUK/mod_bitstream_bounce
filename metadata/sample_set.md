@@ -11,7 +11,8 @@ Volumes are hexadecimal; 40 is maximum. Finetune is 00 throughout.
 | 05   | `ST-01/Snare4`    | Snare                         |   `20` | No      | `C-4`         | Full-scale peak; immediate attack, broad noisy spectrum, approximately 81 ms decay   |
 | 06   | `ST-01/HiHat2`    | Closed hi-hat                 |   `18` | No      | `C-4`         | Peak −0.07 dBFS; very bright, approximately 116 ms decay, clean zero-valued endpoint |
 | 07   | `ST-01/MuteClav`  | Syncopated comping            |   `1c` | No      | `C-4..B-5`    | Peak −0.07 dBFS; immediate pluck, approximately 243 ms decay                         |
-| 08   | `ST-01/Stabs`     | Rare pitched brass/orchestral |   `1c` | No      | `C-4..B-4`    | Peak: 0.00 dBFS; low-mid body and decay, pitched harmonic punctuation                |
+
+| 08   | `ST-02/Tubes`     | Rare pitched tubular/metallic structural accent |   `20` | No      | `C-3..B-3`    | Peak: 0.00 dBFS;  |
 
 ### Sax caveat
 

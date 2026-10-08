@@ -6,8 +6,8 @@ The reusable home groove is unchanged on Ch1-Ch3. Ch4 now uses varied three-note
 
 **Mix note:** Instrument `08` should use default volume `20` instead of `14`; this structural accent is deliberately stronger at `C28`.
 
-| Row | Ch1 | Ch2 | Ch3 | Ch4 |
-|---:|---|---|---|---|
+|Row | Ch1        | Ch2        | Ch3        | Ch4        |
+|---:|------------|------------|------------|------------|
 | 00 | C-4 04 --- | D-4 03 --- | --- -- --- | --- -- --- |
 | 02 | --- -- --- | --- -- --- | C-4 06 C14 | --- -- --- |
 | 03 | C-4 04 --- | A-4 03 --- | --- -- --- | --- -- --- |
@@ -62,6 +62,6 @@ The reusable home groove is unchanged on Ch1-Ch3. Ch4 now uses varied three-note
 | 58 | --- -- --- | --- -- --- | C-4 06 C14 | --- -- --- |
 | 59 | C-4 04 --- | B-4 03 --- | --- -- --- | A-4 07 C18 |
 | 60 | C-4 05 --- | --- -- --- | --- -- --- | --- -- --- |
-| 61 | --- -- --- | --- -- --- | C-4 06 C0E | A-4 08 C24 |
+| 61 | --- -- --- | --- -- --- | C-4 06 C0E | A-3 08 C24 |
 | 62 | C-4 04 --- | A-4 03 --- | C-4 06 C14 | --- -- --- |
 | 63 | C-4 05 C24 | --- -- --- | C-4 06 C18 | --- -- --- |

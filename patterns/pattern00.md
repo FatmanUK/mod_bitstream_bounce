@@ -42,8 +42,8 @@ This is `17` hex order positions, or 23 decimal positions. At speed `06` and tem
 
 `Strings7` establishes the D-centred carrier. The lead density is deliberately sparse: two three-note phrases occupy the full pattern, with a substantial breath between them. There is no cut at the end; the looped drone and its channel volume carry into Pattern `01`.
 
-| Row | Ch1 | Ch2 | Ch3 | Ch4 |
-|---:|---|---|---|---|
+|Row | Ch1        | Ch2        | Ch3        | Ch4        |
+|---:|------------|------------|------------|------------|
 | 00 | D-4 01 C18 | --- -- --- | --- -- --- | --- -- --- |
 | 07 | --- -- --- | --- -- --- | --- -- --- | --- -- EC4 |
 | 08 | --- -- --- | --- -- --- | --- -- --- | A-3 02 C1C |

@@ -2,8 +2,8 @@
 
 The full groove supports the principal sax refrain. The lead states the complete Copper Query in the first half, gives a short MuteClav answer, then climbs through the Overclock Ladder contour in the second half. `EC4` creates brief articulated gaps before each fresh sax attack and before the closing stab. The final `D-4` hit uses instrument `08` (`ST-01/Stabs`) as a recurring refrain marker.
 
-| Row | Ch1 | Ch2 | Ch3 | Ch4 |
-|---:|---|---|---|---|
+|Row | Ch1        | Ch2        | Ch3        | Ch4        |
+|---:|------------|------------|------------|------------|
 | 00 | C-4 04 --- | D-4 03 --- | --- -- --- | --- -- --- |
 | 02 | --- -- --- | --- -- --- | C-4 06 C14 | --- -- --- |
 | 03 | C-4 04 --- | A-4 03 --- | --- -- --- | --- -- EC4 |
@@ -31,7 +31,7 @@ The full groove supports the principal sax refrain. The lead states the complete
 | 28 | C-4 05 --- | --- -- --- | --- -- --- | E-4 -- 305 |
 | 29 | --- -- --- | --- -- --- | --- -- --- | --- -- 300 |
 | 30 | --- -- --- | A-4 03 --- | C-4 06 C14 | --- -- EC4 |
-| 31 | C-4 04 --- | --- -- --- | C-4 06 C0E | C-5 07 C1C |
+| 31 | C-4 04 --- | --- -- --- | C-4 06 C0E | C-3 08 C24 |
 | 32 | C-4 04 --- | G-4 03 --- | --- -- --- | --- -- --- |
 | 34 | --- -- --- | --- -- --- | C-4 06 C14 | --- -- --- |
 | 35 | C-4 04 --- | D-5 03 --- | --- -- --- | --- -- EC4 |
@@ -59,6 +59,6 @@ The full groove supports the principal sax refrain. The lead states the complete
 | 58 | --- -- --- | --- -- --- | C-4 06 C14 | --- -- --- |
 | 59 | C-4 04 --- | C#5 03 --- | --- -- --- | --- -- EC4 |
 | 60 | C-4 05 C24 | --- -- --- | --- -- --- | --- -- --- |
-| 61 | --- -- --- | --- -- --- | C-4 06 C0E | D-4 08 C24 |
+| 61 | --- -- --- | --- -- --- | C-4 06 C0E | D-3 08 C24 |
 | 62 | C-4 04 --- | A-4 03 --- | C-4 06 C14 | --- -- --- |
 | 63 | C-4 05 C28 | --- -- --- | C-4 06 C18 | --- -- --- |
